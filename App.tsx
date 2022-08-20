@@ -1,8 +1,8 @@
 
-import RickMortCharacter from './src/components/RickMortCharacter';
+import RickMortyCharacter from './src/components/RickMortyCharacter';
 
 export default function App() {
   return (
-    <RickMortCharacter/>
+    <RickMortyCharacter/>
   );
 }
