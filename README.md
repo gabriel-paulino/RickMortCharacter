@@ -1,1 +1,1 @@
-# RickMortCharacter
+# RickMortyCharacter
