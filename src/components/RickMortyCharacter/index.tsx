@@ -27,7 +27,7 @@ function RickMortyCharacter() {
 
   function ModalComponent() {
     return (
-      <SafeAreaView style={{flex: 1, marginTop: 15}}>
+      <SafeAreaView style={{ flex: 1 }}>
         <Modal
           animationType="slide"
           visible={showModal}
@@ -50,7 +50,7 @@ function RickMortyCharacter() {
   }
 
   return (
-    <SafeAreaView style={{flex: 1, marginTop: 15}}>
+    <SafeAreaView style={{ flex: 1, marginTop: 25 }}>
       <ScrollView>
         <View style={styles.container}>
           {characters?.map((character, index) => (

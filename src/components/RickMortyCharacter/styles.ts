@@ -1,4 +1,4 @@
-import { StyleSheet, Dimensions} from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#7B25F0",
     marginTop: Dimensions.get("window").height / 2 - 60,
+
   },
   closeModalContainer: {
     display: "flex",
